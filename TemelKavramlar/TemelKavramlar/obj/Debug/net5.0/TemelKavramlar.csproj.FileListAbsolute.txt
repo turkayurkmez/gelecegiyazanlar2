@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\TemelKavramlar.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\TemelKavramlar.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\TemelKavramlar.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\TemelKavramlar.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\TemelKavramlar.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\ref\TemelKavramlar.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\bin\Debug\net5.0\TemelKavramlar.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\ref\TemelKavramlar.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\TemelKavramlar\TemelKavramlar\obj\Debug\net5.0\TemelKavramlar.genruntimeconfig.cache
