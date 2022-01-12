@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\KararYapilari.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\KararYapilari.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\KararYapilari.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\KararYapilari.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\KararYapilari.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\ref\KararYapilari.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\bin\Debug\net5.0\KararYapilari.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\ref\KararYapilari.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\KararYapilari\KararYapilari\obj\Debug\net5.0\KararYapilari.genruntimeconfig.cache
