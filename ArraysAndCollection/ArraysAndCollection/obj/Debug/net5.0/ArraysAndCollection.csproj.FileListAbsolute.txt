@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ArraysAndCollection.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ArraysAndCollection.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ArraysAndCollection.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ArraysAndCollection.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ArraysAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ref\ArraysAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\bin\Debug\net5.0\ArraysAndCollection.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ref\ArraysAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ArraysAndCollection\ArraysAndCollection\obj\Debug\net5.0\ArraysAndCollection.genruntimeconfig.cache
