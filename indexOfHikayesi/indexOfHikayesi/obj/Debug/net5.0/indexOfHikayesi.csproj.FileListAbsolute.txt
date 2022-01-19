@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\indexOfHikayesi.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\indexOfHikayesi.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\indexOfHikayesi.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\indexOfHikayesi.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\indexOfHikayesi.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\ref\indexOfHikayesi.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\bin\Debug\net5.0\indexOfHikayesi.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\ref\indexOfHikayesi.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\indexOfHikayesi\indexOfHikayesi\obj\Debug\net5.0\indexOfHikayesi.genruntimeconfig.cache

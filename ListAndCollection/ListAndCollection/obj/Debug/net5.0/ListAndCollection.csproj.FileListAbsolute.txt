@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ListAndCollection.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ListAndCollection.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ListAndCollection.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ListAndCollection.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ListAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ref\ListAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\bin\Debug\net5.0\ListAndCollection.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ref\ListAndCollection.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ListAndCollection\ListAndCollection\obj\Debug\net5.0\ListAndCollection.genruntimeconfig.cache
