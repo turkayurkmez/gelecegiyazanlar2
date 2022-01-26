@@ -14,3 +14,11 @@ C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\OOPOverview\C
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\OOPOverview\ClassVSObject\obj\Debug\net5.0\ref\ClassVSObject.dll
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.pdb
 C:\Users\turka\source\repos\Kurumsal\Innova\enterpriseArchitecture\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.genruntimeconfig.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ref\ClassVSObject.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\OOPOverview\ClassVSObject\obj\Debug\net5.0\ClassVSObject.pdb
