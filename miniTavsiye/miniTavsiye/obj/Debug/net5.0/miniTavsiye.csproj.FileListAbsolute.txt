@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\miniTavsiye.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\miniTavsiye.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\miniTavsiye.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\miniTavsiye.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\miniTavsiye.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\ref\miniTavsiye.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\bin\Debug\net5.0\miniTavsiye.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\ref\miniTavsiye.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\miniTavsiye\miniTavsiye\obj\Debug\net5.0\miniTavsiye.genruntimeconfig.cache
