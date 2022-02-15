@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\LiskovSubstution.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\LiskovSubstution.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\LiskovSubstution.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\LiskovSubstution.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\LiskovSubstution.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\ref\LiskovSubstution.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\bin\Debug\net5.0\LiskovSubstution.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\ref\LiskovSubstution.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\SOLID\LiskovSubstution\obj\Debug\net5.0\LiskovSubstution.genruntimeconfig.cache
