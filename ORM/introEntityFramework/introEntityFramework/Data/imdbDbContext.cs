@@ -18,6 +18,7 @@ namespace introEntityFramework.Data
         {
             optionsBuilder.UseSqlServer("Data Source=localhost,1433; Database=imdbCloneDb; uid=sa; pwd=Pa$$w0rd");
 
+            
         }
     }
 }

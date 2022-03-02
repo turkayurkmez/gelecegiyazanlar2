@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\Delegate.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\Delegate.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\Delegate.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\Delegate.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\ref\Delegate.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\bin\Debug\net5.0\Delegate.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\ref\Delegate.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.genruntimeconfig.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\Delegate\Delegate\obj\Debug\net5.0\Delegate.csproj.AssemblyReference.cache

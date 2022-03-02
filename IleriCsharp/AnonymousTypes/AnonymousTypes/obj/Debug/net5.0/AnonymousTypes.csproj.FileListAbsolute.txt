@@ -1,0 +1,16 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\AnonymousTypes.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\AnonymousTypes.deps.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\AnonymousTypes.runtimeconfig.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\AnonymousTypes.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\AnonymousTypes.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\ref\AnonymousTypes.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\bin\Debug\net5.0\AnonymousTypes.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.AssemblyInfo.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\ref\AnonymousTypes.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\AnonymousTypes\AnonymousTypes\obj\Debug\net5.0\AnonymousTypes.genruntimeconfig.cache
