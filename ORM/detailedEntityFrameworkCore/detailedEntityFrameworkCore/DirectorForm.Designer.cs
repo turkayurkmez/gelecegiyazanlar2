@@ -36,6 +36,8 @@ namespace detailedEntityFrameworkCore
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonAdd = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxName
@@ -97,11 +99,20 @@ namespace detailedEntityFrameworkCore
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(302, 34);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(292, 175);
+            this.dataGridView1.TabIndex = 7;
+            // 
             // DirectorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(303, 299);
+            this.ClientSize = new System.Drawing.Size(655, 291);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -111,6 +122,8 @@ namespace detailedEntityFrameworkCore
             this.Controls.Add(this.textBoxName);
             this.Name = "DirectorForm";
             this.Text = "DirectorForm";
+            this.Load += new System.EventHandler(this.DirectorForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,5 +138,6 @@ namespace detailedEntityFrameworkCore
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

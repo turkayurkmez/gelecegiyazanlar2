@@ -21,7 +21,7 @@ namespace detailedEntityFrameworkCore.Models
         public Director Director { get; set; }
         public int? DirectorId { get; set; }
 
-        public ICollection<FilmsPlayer> Players { get; set; }
+        public ICollection<FilmsPlayer> Players { get; set; } = new HashSet<FilmsPlayer>();
 
     }
 }

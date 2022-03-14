@@ -18,10 +18,10 @@ namespace detailedEntityFrameworkCore
         {
             InitializeComponent();
         }
-
+        movieDbContext movieDbContext = new movieDbContext();
         private void Form1_Load(object sender, EventArgs e)
         {
-            movieDbContext movieDbContext = new movieDbContext();
+          
             movieDbContext.Database.EnsureCreated();
 
             var allContext = movieDbContext.Films.Include(x => x.Director)
@@ -31,7 +31,8 @@ namespace detailedEntityFrameworkCore
 
             var data = allContext.Select(f => new
             {
-                f.Name,
+                Id = f.Id,
+                FilmAdi = f.Name,
                 Yonetmen = f.Director.Name + " " + f.Director.LastName,
                 Oyuncu = f.Players.ToList()[0].Player.Name + " " + f.Players.ToList()[0].Player.LastName
             });
@@ -46,6 +47,37 @@ namespace detailedEntityFrameworkCore
         {
             DirectorForm directorForm = new DirectorForm();
             directorForm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            PlayerForm form = new PlayerForm();
+            form.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MovieForm movieForm = new MovieForm();
+            movieForm.Show();
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            listBoxPlayers.Items.Clear();
+            var id = (int)dataGridView1.Rows[e.RowIndex].Cells[0].Value;
+            var selectedFilm = movieDbContext.Films.Include(f => f.Players)
+                                              .ThenInclude(p => p.Player)
+                                              .FirstOrDefault(f => f.Id == id);
+
+
+            foreach (var film in selectedFilm.Players)
+            {
+                listBoxPlayers.Items.Add(film.Player.Name + " " + film.Player.LastName);
+            }
+
+
+
+
         }
     }
 }

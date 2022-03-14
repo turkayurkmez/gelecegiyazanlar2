@@ -34,7 +34,19 @@ namespace detailedEntityFrameworkCore
             string message = result > 0 ? "Başarılı" : "Başarısız";
 
             MessageBox.Show(message);
+            getDirectors();
          
+        }
+
+        void getDirectors()
+        {
+            var directors = context.Directors.ToList();
+            dataGridView1.DataSource = directors;
+        }
+
+        private void DirectorForm_Load(object sender, EventArgs e)
+        {
+            getDirectors();
         }
     }
 }

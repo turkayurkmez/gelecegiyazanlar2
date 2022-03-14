@@ -87,3 +87,7 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEnti
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\obj\Debug\detailedEntityFrameworkCore.exe
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\obj\Debug\detailedEntityFrameworkCore.pdb
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\obj\Debug\detailedEntityFrameworkCore.DirectorForm.resources
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\obj\Debug\detailedEntityFrameworkCore.PlayerForm.resources
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\ORM\detailedEntityFrameworkCore\detailedEntityFrameworkCore\obj\Debug\detailedEntityFrameworkCore.MovieForm.resources

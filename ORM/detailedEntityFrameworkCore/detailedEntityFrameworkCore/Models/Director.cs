@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace detailedEntityFrameworkCore.Models
 {
+
+    //POCO: Plain Old C# Object
    public class Director
     {
         public int Id { get; set; }
@@ -13,6 +15,7 @@ namespace detailedEntityFrameworkCore.Models
         public string LastName { get; set; }
         public string Info { get; set; }
 
+        //Navigation Property
         public List<Film> Films { get; set; }
 
     }

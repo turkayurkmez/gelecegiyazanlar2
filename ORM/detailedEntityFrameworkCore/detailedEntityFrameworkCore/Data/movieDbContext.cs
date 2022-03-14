@@ -13,6 +13,7 @@ namespace detailedEntityFrameworkCore.Data
         public DbSet<Film> Films { get; set; }
         public DbSet<Director> Directors { get; set; }
         public DbSet<Player> Players { get; set; }
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -46,12 +47,12 @@ namespace detailedEntityFrameworkCore.Data
                                          .OnDelete(DeleteBehavior.NoAction);
 
 
-            modelBuilder.Entity<Director>().HasData(new Director { Id=1, Name = "Nuri Bilge", LastName = "Ceylan", Info = "Başarılı yönetmen" });
+            //modelBuilder.Entity<Director>().HasData(new Director { Id=1, Name = "Nuri Bilge", LastName = "Ceylan", Info = "Başarılı yönetmen" });
 
-            modelBuilder.Entity<Player>().HasData(new Player { Id=1, Name = "Doğu", LastName = "Demirkol", Info = "Başarılı bir komedyen" });
+            //modelBuilder.Entity<Player>().HasData(new Player { Id=1, Name = "Doğu", LastName = "Demirkol", Info = "Başarılı bir komedyen" });
 
-            modelBuilder.Entity<Film>().HasData(new Film { Id=1, Name = "Ahlat Ağacı", DirectorId = 1, Rating = 5 });
-            modelBuilder.Entity<FilmsPlayer>().HasData(new FilmsPlayer { FilmId = 1, PlayerId = 1, Role = "Başrol oyuncusu" });
+            //modelBuilder.Entity<Film>().HasData(new Film { Id=1, Name = "Ahlat Ağacı", DirectorId = 1, Rating = 5 });
+            //modelBuilder.Entity<FilmsPlayer>().HasData(new FilmsPlayer { FilmId = 1, PlayerId = 1, Role = "Başrol oyuncusu" });
 
 
 
