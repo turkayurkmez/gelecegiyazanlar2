@@ -1,0 +1,26 @@
+﻿
+
+@model User
+@{
+    Layout = "_Layout";
+}
+
+
+    <form method="post">
+        <p>
+            <label asp-for="UserName"></label>
+            <input asp-for="UserName" placeholder="Kullanıcı adı" />
+            <span asp-validation-for="UserName"></span>
+        </p>
+        <p>
+            
+            <input asp-for="Email" placeholder="Eposta" />
+            <span asp-validation-for="Email"></span>
+        </p>
+        <p>
+            <input asp-for="BirthDate" placeholder="Doğum tarihi" value="" />
+            <span asp-validation-for="BirthDate"></span>
+        </p>
+        <button type="submit">Gönder</button>
+    </form>
+

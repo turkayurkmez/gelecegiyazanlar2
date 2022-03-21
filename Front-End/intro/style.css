@@ -1,0 +1,66 @@
+h1{
+    color: cornflowerblue;
+    font-family: 'Calibri';
+    font-size: 35px;
+    text-shadow: silver 3px 3px 3px;
+}
+
+p{
+    font-family: 'Trebuchet MS'
+
+}
+
+.urunBaslik{
+    font-style: italic;
+    
+}
+
+#buttonEkle{
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 25px;
+    width: 150px;
+    padding: 5px;
+    box-shadow: gray 5px 5px 3px;
+
+}
+
+
+
+.a{
+    color: brown;
+}
+
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline;
+    margin: 10px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+
+
+    Home.Index sayfası
+
+<p>Merhaba @ViewBag.Name</p>
+<p>
+    @if (ViewBag.Age >= 35)
+    {
+
+
+        <span>Yolun yarısı geçilmiş :)</span>
+    }
+    else
+    {
+        <span>Henüz gençsiniz</span>
+    }
+</p>
+<a asp-action="Register" asp-controller="Home">Tıkla</a>
+
