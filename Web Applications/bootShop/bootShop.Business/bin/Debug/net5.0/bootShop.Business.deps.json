@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "bootShop.Business/1.0.0": {
+        "dependencies": {
+          "bootShop.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "bootShop.Business.dll": {}
+        }
+      },
+      "bootShop.DataAccess/1.0.0": {
+        "dependencies": {
+          "bootShop.Entities": "1.0.0"
+        },
+        "runtime": {
+          "bootShop.DataAccess.dll": {}
+        }
+      },
+      "bootShop.Entities/1.0.0": {
+        "runtime": {
+          "bootShop.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bootShop.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bootShop.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bootShop.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
