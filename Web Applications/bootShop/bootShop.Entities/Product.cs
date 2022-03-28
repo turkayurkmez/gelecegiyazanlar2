@@ -20,5 +20,7 @@ namespace bootShop.Entities
         public DateTime? ModifiedDate { get; set; }
 
         public string ImageUrl { get; set; }
+
+        public Category Category { get; set; }
     }
 }

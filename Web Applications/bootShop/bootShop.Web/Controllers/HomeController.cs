@@ -24,14 +24,17 @@ namespace bootShop.Web.Controllers
 
 
 
-        public IActionResult Index(int page=1)
+        public IActionResult Index(int page = 1, int? catId = null)
         {
-            var products = productService.GetProducts();
+            var products = catId == null ? productService.GetProducts().ToList() : productService.GetProducts().Where(p => p.CategoryId == catId).ToList();
             var productsPerPage = 3;
 
             var paginatedPrdoucts = products.OrderBy(x => x.Id)
                                             .Skip((page - 1) * productsPerPage)
                                             .Take(productsPerPage);
+
+            ViewBag.CurrentPage = page;
+            ViewBag.Category = catId;
 
             ViewBag.TotalPages = Math.Ceiling((decimal)products.Count / productsPerPage);
             return View(paginatedPrdoucts);

@@ -16,7 +16,7 @@
 <ul class="pagination">
     @for (int i = 1; i <= ViewBag.TotalPages; i++)
     {
-        <li class="page-item"><a class="page-link" asp-action="Index" asp-route-page="@i" >@i</a></li>
+        <li class="page-item @(i==ViewBag.CurrentPage ? "active":"")"><a class="page-link" asp-action="Index" asp-route-page="@i" asp-route-catid="@ViewBag.Category" >@i</a></li>
     }
 
 

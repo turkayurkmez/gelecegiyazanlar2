@@ -1,7 +1,9 @@
 using bootShop.Business;
+using bootShop.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,7 +27,10 @@ namespace bootShop.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddTransient<IProductService, FakeProductService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            var connectionString = Configuration.GetConnectionString("db");
+            services.AddDbContext<bootShopDbContext>(opt => opt.UseSqlServer(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,9 +55,26 @@ namespace bootShop.Web
 
             app.UseEndpoints(endpoints =>
             {
+
+
+                endpoints.MapControllerRoute(
+                   name: "xxxx",
+                   pattern: "Kategori{catid}/Sayfa{page}",
+                   defaults: new { controller = "Home", action = "Index", catId = 1, page=1 });
+
+                endpoints.MapControllerRoute(
+                  name: "xxxx",
+                  pattern: "Kategori{catid}",
+                  defaults: new { controller = "Home", action = "Index", catId = 1, page = 1 });
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+               name: "",
+               pattern: "Sayfa{page}",
+               defaults: new { controller = "Home", action = "Index", page = 1 });
             });
         }
     }

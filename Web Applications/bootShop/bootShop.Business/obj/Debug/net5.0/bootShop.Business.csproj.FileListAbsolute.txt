@@ -11,7 +11,6 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\bootShop.Business.AssemblyInfoInputs.cache
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\bootShop.Business.AssemblyInfo.cs
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\bootShop.Business.csproj.CoreCompileInputs.cache
-C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\bootShop.Business.csproj.CopyComplete
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\bootShop.Business.dll
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\ref\bootShop.Business.dll
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Business\obj\Debug\net5.0\bootShop.Business.pdb

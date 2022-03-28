@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - bootShop.Web</title>    
+    <title>@ViewData["Title"] - bootShop.Web</title>
     <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -48,7 +48,13 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            <div class="row">
+                <div class="col-3">
+                    @await Component.InvokeAsync("Menu")
+                </div>
+                <div class="col-9">@RenderBody()</div>
+            </div>
+
         </main>
     </div>
 
