@@ -1,5 +1,6 @@
 using bootShop.Business;
 using bootShop.DataAccess.Data;
+using bootShop.DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +30,9 @@ namespace bootShop.Web
             services.AddControllersWithViews();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductRepository, EFProductRepository>();
+
+
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<bootShopDbContext>(opt => opt.UseSqlServer(connectionString));
         }
@@ -60,12 +64,11 @@ namespace bootShop.Web
                 endpoints.MapControllerRoute(
                    name: "xxxx",
                    pattern: "Kategori{catid}/Sayfa{page}",
-                   defaults: new { controller = "Home", action = "Index", catId = 1, page=1 });
-
+                   defaults: new { controller = "Home", action = "Index", page=1 });
                 endpoints.MapControllerRoute(
                   name: "xxxx",
                   pattern: "Kategori{catid}",
-                  defaults: new { controller = "Home", action = "Index", catId = 1, page = 1 });
+                  defaults: new { controller = "Home", action = "Index", catId = 0, page = 1 });
 
                 endpoints.MapControllerRoute(
                     name: "default",

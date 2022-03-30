@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bootShop.Entities
 {
-   public class Product
+   public class Product : IEntity
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "Ürün adı boş olamaz")]

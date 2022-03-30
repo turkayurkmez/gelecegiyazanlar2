@@ -9,6 +9,7 @@ namespace bootShop.Business
 {
    public  interface IProductService
     {
-        ICollection<Product> GetProducts();
+        Task<ICollection<Product>> GetProducts();
+        Task<int> AddProduct(Product product);
     }
 }

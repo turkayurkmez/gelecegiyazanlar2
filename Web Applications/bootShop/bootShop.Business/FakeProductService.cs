@@ -24,9 +24,20 @@ namespace bootShop.Business
                  new Product{ Id=6, Name="Y", Price=10000, Discount=0.15, Descriptipn="8 GB ram", CategoryId=3, ImageUrl="https://productimages.hepsiburada.net/s/137/222-222/110000089760432.jpg"},
              };
         }
+
+        public Task<int> AddProduct(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
         public ICollection<Product> GetProducts()
         {
             return products;
+        }
+
+        Task<ICollection<Product>> IProductService.GetProducts()
+        {
+            throw new NotImplementedException();
         }
     }
 }

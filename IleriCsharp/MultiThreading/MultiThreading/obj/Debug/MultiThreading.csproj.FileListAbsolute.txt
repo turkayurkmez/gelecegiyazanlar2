@@ -1,0 +1,10 @@
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\bin\Debug\MultiThreading.exe.config
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\bin\Debug\MultiThreading.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\bin\Debug\MultiThreading.pdb
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.Form1.resources
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.Properties.Resources.resources
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.csproj.GenerateResource.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.exe
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\IleriCsharp\MultiThreading\MultiThreading\obj\Debug\MultiThreading.pdb

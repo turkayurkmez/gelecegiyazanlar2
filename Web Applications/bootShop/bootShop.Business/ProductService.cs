@@ -1,4 +1,5 @@
 ﻿using bootShop.DataAccess.Data;
+using bootShop.DataAccess.Repositories;
 using bootShop.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,15 +11,21 @@ namespace bootShop.Business
 {
     public class ProductService : IProductService
     {
-        private bootShopDbContext dbContext;
+        private readonly IProductRepository productRepository;
 
-        public ProductService(bootShopDbContext dbContext)
+        public ProductService(IProductRepository productRepository)
         {
-            this.dbContext = dbContext;
+            this.productRepository = productRepository;
         }
-        public ICollection<Product> GetProducts()
+
+        public async Task<int> AddProduct(Product product)
         {
-            return dbContext.Products.ToList();
+            return await productRepository.Add(product);
+        }
+
+        public async Task<ICollection<Product>> GetProducts()
+        {
+            return await productRepository.GetAllEntities();
         }
     }
 }

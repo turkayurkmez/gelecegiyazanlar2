@@ -24,9 +24,11 @@ namespace bootShop.Web.Controllers
 
 
 
-        public IActionResult Index(int page = 1, int? catId = null)
+        public async Task<IActionResult> Index(int page = 1, int? catId = 0)
         {
-            var products = catId == null ? productService.GetProducts().ToList() : productService.GetProducts().Where(p => p.CategoryId == catId).ToList();
+
+            var productsFromService = await productService.GetProducts();
+            var products = catId == 0 ?  productsFromService.ToList() : productsFromService.Where(p => p.CategoryId == catId).ToList();
             var productsPerPage = 3;
 
             var paginatedPrdoucts = products.OrderBy(x => x.Id)
