@@ -1,4 +1,5 @@
 using bootShop.Business;
+using bootShop.Business.MapperProfile;
 using bootShop.DataAccess.Data;
 using bootShop.DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
@@ -35,6 +36,7 @@ namespace bootShop.Web
 
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<bootShopDbContext>(opt => opt.UseSqlServer(connectionString));
+            services.AddAutoMapper(typeof(MapProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

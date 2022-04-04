@@ -1,4 +1,6 @@
-﻿using bootShop.Entities;
+﻿using bootShop.Dtos.Requests;
+using bootShop.Dtos.Responses;
+using bootShop.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,7 @@ namespace bootShop.Business
 {
    public  interface IProductService
     {
-        Task<ICollection<Product>> GetProducts();
-        Task<int> AddProduct(Product product);
+        Task<ICollection<ProductListResponse>> GetProducts();
+        Task<int> AddProduct(AddProductRequest product);
     }
 }

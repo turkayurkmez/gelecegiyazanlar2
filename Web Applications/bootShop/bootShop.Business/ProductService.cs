@@ -1,5 +1,8 @@
-﻿using bootShop.DataAccess.Data;
+﻿using AutoMapper;
+using bootShop.DataAccess.Data;
 using bootShop.DataAccess.Repositories;
+using bootShop.Dtos.Requests;
+using bootShop.Dtos.Responses;
 using bootShop.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,20 +15,49 @@ namespace bootShop.Business
     public class ProductService : IProductService
     {
         private readonly IProductRepository productRepository;
+        private IMapper mapper;
 
-        public ProductService(IProductRepository productRepository)
+        public ProductService(IProductRepository productRepository, IMapper mapper)
         {
             this.productRepository = productRepository;
+            this.mapper = mapper;
         }
 
-        public async Task<int> AddProduct(Product product)
+        public async Task<int> AddProduct(AddProductRequest request)
         {
+            //var product = new Product
+            //{
+            //    CategoryId = request.CategoryId,
+            //    CreatedDate = DateTime.Now,
+            //    Descriptipn = request.Descriptipn,
+            //    Discount = request.Discount,
+            //    ImageUrl = request.ImageUrl,
+            //    Name = request.Name,
+            //    Price = request.Price
+            //};
+
+            var product = mapper.Map<Product>(request);
             return await productRepository.Add(product);
         }
 
-        public async Task<ICollection<Product>> GetProducts()
+        public async Task<ICollection<ProductListResponse>> GetProducts()
         {
-            return await productRepository.GetAllEntities();
+            var products = await productRepository.GetAllEntities();
+            // var productListResponses = new List<ProductListResponse>();
+
+            //products.ToList().ForEach(p => productListResponses.Add(new ProductListResponse
+            //{
+            //     CategoryId = p.CategoryId,
+            //     Descriptipn = p.Descriptipn,
+            //     Discount = p.Discount,
+            //     ImageUrl=p.ImageUrl,
+            //     Id = p.Id,
+            //     Name=p.Name,
+            //     Price = p.Price
+            //}));
+
+            var productListResponses = mapper.Map<List<ProductListResponse>>(products);
+            return productListResponses;
         }
     }
 }
