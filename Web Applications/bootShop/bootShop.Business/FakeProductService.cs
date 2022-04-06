@@ -37,9 +37,29 @@ namespace bootShop.Business
             throw new NotImplementedException();
         }
 
+        public Task DeleteProduct(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ProductListResponse> GetProductById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public ICollection<Product> GetProducts()
         {
             return products;
+        }
+
+        public Task<bool> IsExist(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> UpdateProduct(UpdateProductRequest request)
+        {
+            throw new NotImplementedException();
         }
 
         //Task<ICollection<Product>> IProductService.GetProducts()

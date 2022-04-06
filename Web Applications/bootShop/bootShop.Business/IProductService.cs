@@ -13,5 +13,9 @@ namespace bootShop.Business
     {
         Task<ICollection<ProductListResponse>> GetProducts();
         Task<int> AddProduct(AddProductRequest product);
+        Task<bool> IsExist(int id);
+        Task<ProductListResponse> GetProductById(int id);
+        Task<int> UpdateProduct(UpdateProductRequest request);
+        Task DeleteProduct(int id);
     }
 }

@@ -40,6 +40,18 @@ namespace bootShop.Business
             return await productRepository.Add(product);
         }
 
+        public async Task DeleteProduct(int id)
+        {
+            await productRepository.Delete(id);
+        }
+
+        public async Task<ProductListResponse> GetProductById(int id)
+        {
+            Product product = await productRepository.GetEntityById(id);
+            var response = mapper.Map<ProductListResponse>(product);
+            return response;
+        }
+
         public async Task<ICollection<ProductListResponse>> GetProducts()
         {
             var products = await productRepository.GetAllEntities();
@@ -58,6 +70,19 @@ namespace bootShop.Business
 
             var productListResponses = mapper.Map<List<ProductListResponse>>(products);
             return productListResponses;
+        }
+
+        public async  Task<bool> IsExist(int id)
+        {
+            return await productRepository.IsExists(id);
+        }
+
+        public async Task<int> UpdateProduct(UpdateProductRequest request)
+        {
+            var product = mapper.Map<Product>(request);
+            var result = await productRepository.Update(product);
+            return result;
+
         }
     }
 }

@@ -22,5 +22,7 @@ namespace bootShop.Entities
         public string ImageUrl { get; set; }
 
         public Category Category { get; set; }
+        //Soft-delete: Ekranda "Sil" butonu olmasına rağmen, kullanıcı bu emri verdiğinde; aşağıdaki özelliği false yapmak soft delete olarak tanımlanır.
+        public bool? IsActive { get; set; } = true;
     }
 }

@@ -162,3 +162,6 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Users\Login.cshtml.g.cs

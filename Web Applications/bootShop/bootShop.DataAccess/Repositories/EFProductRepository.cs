@@ -19,6 +19,7 @@ namespace bootShop.DataAccess.Repositories
         }
         public async Task<int> Add(Product entity)
         {
+            entity.CreatedDate = DateTime.Now;
             await context.Products.AddAsync(entity);
             await context.SaveChangesAsync();
             return entity.Id;
@@ -40,7 +41,13 @@ namespace bootShop.DataAccess.Repositories
 
         public async Task<Product> GetEntityById(int id)
         {
+            
             return await context.Products.FindAsync(id);
+        }
+
+        public async Task<bool> IsExists(int id)
+        {
+            return await context.Products.AnyAsync(p => p.Id == id);
         }
 
         public async Task<IList<Product>> SearchProductsByName(string name)
@@ -50,6 +57,7 @@ namespace bootShop.DataAccess.Repositories
 
         public async Task<int> Update(Product entity)
         {
+            entity.ModifiedDate = DateTime.Now;
             context.Products.Update(entity);
            return  await context.SaveChangesAsync();
            

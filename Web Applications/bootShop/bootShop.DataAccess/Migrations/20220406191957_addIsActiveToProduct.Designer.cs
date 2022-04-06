@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using bootShop.DataAccess.Data;
 
 namespace bootShop.DataAccess.Migrations
 {
     [DbContext(typeof(bootShopDbContext))]
-    partial class bootShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220406191957_addIsActiveToProduct")]
+    partial class addIsActiveToProduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
