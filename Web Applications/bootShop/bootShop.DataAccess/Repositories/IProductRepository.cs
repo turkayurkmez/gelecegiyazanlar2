@@ -9,6 +9,7 @@ namespace bootShop.DataAccess.Repositories
 {
    public interface IProductRepository : IRepository<Product>
     {
-        Task<IList<Product>> SearchProductsByName(string name); 
+        Task<IList<Product>> SearchProductsByName(string name);
+        
     }
 }

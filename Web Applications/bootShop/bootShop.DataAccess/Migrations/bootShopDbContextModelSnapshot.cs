@@ -73,6 +73,9 @@ namespace bootShop.DataAccess.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
@@ -96,6 +99,7 @@ namespace bootShop.DataAccess.Migrations
                             CategoryId = 1,
                             Discount = 0.14999999999999999,
                             ImageUrl = "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg",
+                            IsActive = true,
                             Name = "IPhone",
                             Price = 1500.0
                         },
@@ -105,6 +109,7 @@ namespace bootShop.DataAccess.Migrations
                             CategoryId = 1,
                             Discount = 0.14999999999999999,
                             ImageUrl = "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg",
+                            IsActive = true,
                             Name = "Oppo",
                             Price = 1500.0
                         },
@@ -114,6 +119,7 @@ namespace bootShop.DataAccess.Migrations
                             CategoryId = 1,
                             Discount = 0.14999999999999999,
                             ImageUrl = "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg",
+                            IsActive = true,
                             Name = "Xiaomi",
                             Price = 1500.0
                         },
@@ -123,6 +129,7 @@ namespace bootShop.DataAccess.Migrations
                             CategoryId = 2,
                             Discount = 0.14999999999999999,
                             ImageUrl = "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg",
+                            IsActive = true,
                             Name = "Macbook pro",
                             Price = 1500.0
                         },
@@ -132,6 +139,7 @@ namespace bootShop.DataAccess.Migrations
                             CategoryId = 2,
                             Discount = 0.14999999999999999,
                             ImageUrl = "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg",
+                            IsActive = true,
                             Name = "Dell XPS 13",
                             Price = 1500.0
                         },
@@ -141,6 +149,7 @@ namespace bootShop.DataAccess.Migrations
                             CategoryId = 2,
                             Discount = 0.14999999999999999,
                             ImageUrl = "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg",
+                            IsActive = true,
                             Name = "Huawei",
                             Price = 1500.0
                         });

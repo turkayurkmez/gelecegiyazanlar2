@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\bootShop.DataAccess\bootShop.DataAccess.csproj" />
+    <ProjectReference Include="..\bootShop.Dtos\bootShop.Dtos.csproj" />
   </ItemGroup>
 
 </Project>
