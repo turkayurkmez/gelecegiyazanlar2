@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootShop.Business", "bootSh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootShop.DataAccess", "bootShop.DataAccess\bootShop.DataAccess.csproj", "{937692E0-DD03-4417-88A6-0998A298331A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bootShop.Dtos", "bootShop.Dtos\bootShop.Dtos.csproj", "{9DE19822-E407-4CB5-86F8-28AB499293E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootShop.Dtos", "bootShop.Dtos\bootShop.Dtos.csproj", "{9DE19822-E407-4CB5-86F8-28AB499293E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bootShop.API", "bootShop.API\bootShop.API.csproj", "{35A55021-E9D6-4428-B5C1-EA4447DF4D4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9DE19822-E407-4CB5-86F8-28AB499293E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE19822-E407-4CB5-86F8-28AB499293E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE19822-E407-4CB5-86F8-28AB499293E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A55021-E9D6-4428-B5C1-EA4447DF4D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A55021-E9D6-4428-B5C1-EA4447DF4D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A55021-E9D6-4428-B5C1-EA4447DF4D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A55021-E9D6-4428-B5C1-EA4447DF4D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
