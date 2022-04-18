@@ -1,0 +1,6 @@
+﻿@model CartCollection
+
+@if (Model != null)
+{
+    <a class="nav-link" asp-action="Index" asp-controller="Cart">Sepetim (@Model.CartItems.Count) - @Model.GetTotalPrice() TL</a>
+}

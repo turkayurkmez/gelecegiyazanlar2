@@ -5,7 +5,12 @@
     {
       "library": "twitter-bootstrap@5.1.3",
       "destination": "wwwroot/lib/bootstrap/",
-      "files": [ "css/bootstrap.min.css", "js/bootstrap.bundle.min.js" ]  
+      "files": [ "css/bootstrap.min.css", "js/bootstrap.bundle.min.js" ]
+    },
+    {
+      "library": "AlertifyJS@1.13.1",
+      "destination": "wwwroot/lib/alertify",
+      "files": ["alertify.min.js", "css/alertify.min.css"]
     }
     
   ]

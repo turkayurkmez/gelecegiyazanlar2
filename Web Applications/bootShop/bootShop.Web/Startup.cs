@@ -33,12 +33,14 @@ namespace bootShop.Web
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductRepository, EFProductRepository>();
+            services.AddScoped<IUserService, FakeUserService>();
+            //services.AddScoped<DbContext, bootShopDbContext>();
 
 
             var connectionString = Configuration.GetConnectionString("db");
             services.AddDbContext<bootShopDbContext>(opt => opt.UseSqlServer(connectionString));
             services.AddAutoMapper(typeof(MapProfile));
-
+            services.AddSession();
            
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -69,6 +71,7 @@ namespace bootShop.Web
 
             app.UseRouting();
 
+            app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();
 

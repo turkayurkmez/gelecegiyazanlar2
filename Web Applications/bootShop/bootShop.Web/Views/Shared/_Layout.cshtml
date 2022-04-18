@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - bootShop.Web</title>
     <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/lib/alertify/css/alertify.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                           @await Component.InvokeAsync("Cart")
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,7 +36,14 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a class="nav-link" asp-action="Logout" asp-controller="Users">Hoşgeldin @User.Identity.Name (Çıkış Yap)</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link" asp-action="Login" asp-controller="Users">Giriş Yap</a>
+                            }
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -65,7 +73,9 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/alertify/alertify.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

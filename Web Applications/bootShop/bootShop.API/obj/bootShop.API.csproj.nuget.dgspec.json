@@ -1,0 +1,324 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.API\\bootShop.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.API\\bootShop.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.API\\bootShop.API.csproj",
+        "projectName": "bootShop.API",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.API\\bootShop.API.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj",
+        "projectName": "bootShop.Business",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj"
+              },
+              "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Dtos\\bootShop.Dtos.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Dtos\\bootShop.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj",
+        "projectName": "bootShop.DataAccess",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj": {
+                "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Dtos\\bootShop.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Dtos\\bootShop.Dtos.csproj",
+        "projectName": "bootShop.Dtos",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Dtos\\bootShop.Dtos.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj",
+        "projectName": "bootShop.Entities",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj",
+        "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

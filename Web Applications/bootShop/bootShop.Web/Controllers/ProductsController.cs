@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace bootShop.Web.Controllers
 {
 
-    [Authorize]
+    [Authorize(Roles = "Admin,Editor")]
     public class ProductsController : Controller
     {
         private readonly IProductService productService;
@@ -24,6 +24,7 @@ namespace bootShop.Web.Controllers
             this.productService = productService;
             this.categoryService = categoryService;
         }
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var products = await productService.GetProducts();
@@ -31,6 +32,7 @@ namespace bootShop.Web.Controllers
 
         }
         [HttpGet]
+       
         public IActionResult Create()
         {
             List<SelectListItem> selectedItems = GetCategoriesForDropDown();
@@ -90,7 +92,7 @@ namespace bootShop.Web.Controllers
             if (ModelState.IsValid)
             {
                 int affectedRowsCount = await productService.UpdateProduct(request);
-                if (affectedRowsCount>0)
+                if (affectedRowsCount > 0)
                 {
                     return RedirectToAction(nameof(Index));
                 }
@@ -105,7 +107,7 @@ namespace bootShop.Web.Controllers
         {
             if (await productService.IsExist(id))
             {
-                var product  = await productService.GetProductById(id);
+                var product = await productService.GetProductById(id);
                 return View(product);
             }
             return NotFound();
@@ -116,7 +118,7 @@ namespace bootShop.Web.Controllers
         public async Task<IActionResult> DeleteOk(int id)
         {
             await productService.DeleteProduct(id);
-             return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index));
         }
 
 

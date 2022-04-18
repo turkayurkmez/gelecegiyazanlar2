@@ -165,3 +165,7 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Products\Delete.cshtml.g.cs
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Users\Login.cshtml.g.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Users\AccessDenied.cshtml.g.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.Web\obj\Debug\net5.0\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs

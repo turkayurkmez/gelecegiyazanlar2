@@ -1,0 +1,39 @@
+﻿@model CartCollection
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if (Model.CartItems.Count == 0)
+{
+    <div class="alert alert-warning">Sepetinizde ürün bulunmuyor </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Ürün Adı</th>
+                <th>Adet</th>
+                <th>Ara Toplam</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cart in Model.CartItems)
+            {
+                <tr>
+                    <td>@cart.Product.Name</td>
+                    <td>@cart.Quantity</td>
+                    <td>@(cart.Product.Price * (1 - cart.Product.Discount) * cart.Quantity)</td>
+
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Toplam: @Model.GetTotalPrice() TL</td>
+            </tr>
+        </tfoot>
+    </table>
+}
