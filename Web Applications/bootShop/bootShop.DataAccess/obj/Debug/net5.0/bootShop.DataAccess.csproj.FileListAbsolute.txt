@@ -15,4 +15,3 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.runtimeconfig.json
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.runtimeconfig.dev.json
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.genruntimeconfig.cache
-C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.csproj.CopyComplete

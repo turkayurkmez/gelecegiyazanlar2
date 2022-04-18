@@ -1,0 +1,16 @@
+<h3>Ürünler</h3>
+<div class="container">
+  <div class="row">
+    <div class="col-3" *ngFor="let product of products" >
+      <div class="card">
+        <img class="card-img-top" src="{{product.imageUrl}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}}</h5>
+          <p class="card-text">{{product.descriptipn}}</p>
+          <p class="card-text">{{product.price}}</p>
+          <a href="#" class="btn btn-primary">Sepete Ekle</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
