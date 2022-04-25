@@ -28,9 +28,11 @@
     <script>
         $(document).ready(function(){
             $('#get').click(function(){
+                console.log(btoa('admin:123'));
                 $.ajax({
-                    url: 'https://localhost:44333/api/Products',
-                    method: 'GET',
+                    url: 'https://localhost:5001/api/Products',
+                    method: 'GET',                
+                    
                     success: function(data){
                         console.log(data);
                         $('#products').empty();
