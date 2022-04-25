@@ -69,3 +69,4 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.API\obj\Debug\net5.0\ref\bootShop.API.dll
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.API\obj\Debug\net5.0\bootShop.API.pdb
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.API\obj\Debug\net5.0\bootShop.API.genruntimeconfig.cache
+C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

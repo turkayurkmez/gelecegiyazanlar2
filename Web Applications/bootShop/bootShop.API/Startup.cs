@@ -2,6 +2,7 @@
 using bootShop.Business.MapperProfile;
 using bootShop.DataAccess.Data;
 using bootShop.DataAccess.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -12,11 +13,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace bootShop.API
@@ -44,6 +47,7 @@ namespace bootShop.API
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductRepository, EFProductRepository>();
+            services.AddScoped<IUserService, FakeUserService>();
 
 
 
@@ -58,6 +62,29 @@ namespace bootShop.API
                 builder.AllowAnyMethod();
                 builder.AllowAnyHeader();
             }));
+
+            //1. Üret
+            //2. Denetle ve onayla
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Burası çok ama çok gizli bir ifade"));
+            var credential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                    .AddJwtBearer(opt =>
+                    {
+                        opt.SaveToken = true;
+                        opt.TokenValidationParameters = new TokenValidationParameters
+                        {
+                            ValidateActor = true,
+                            ValidateIssuer = true,
+                            ValidateAudience = true,
+
+                            ValidIssuer = "turkcell.com.tr",
+                            ValidAudience = "turkcell.com.tr",
+                            ValidateIssuerSigningKey = true,
+                            IssuerSigningKey = key
+                        };
+                    });
+
 
         }
 
@@ -106,7 +133,7 @@ namespace bootShop.API
                 {
                     object body = await context.Request.ReadFromJsonAsync<object>();
                     dynamic type = JsonConvert.DeserializeObject<dynamic>(body.ToString());
-                    Console.WriteLine(type.name);
+                    //Console.WriteLine(type.name);
                 }
 
                 await next.Invoke();
@@ -125,7 +152,7 @@ namespace bootShop.API
 
             app.UseCors("Allow");
 
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
