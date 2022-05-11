@@ -18,6 +18,7 @@ using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -126,17 +127,24 @@ namespace bootShop.API
 
             app.Use(async (context, next) =>
             {
+                await next.Invoke();
                 Console.WriteLine(context.Request.Method);
                 var isJsonContent = context.Request.HasJsonContentType();
-                Console.WriteLine(isJsonContent);
+                //Console.WriteLine(isJsonContent);
                 if (isJsonContent)
                 {
-                    object body = await context.Request.ReadFromJsonAsync<object>();
-                    dynamic type = JsonConvert.DeserializeObject<dynamic>(body.ToString());
+                    Console.WriteLine("Gelen request içerisinde json datası var");
+                    //Console.WriteLine(context.Request.ContentType);
+                    //byte[] buffer = new byte[context.Request.Body.Length];
+
+                    //context.Request.Body.Read(buffer, 0, buffer.Length);
+                    //var result = Convert.ToBase64String(buffer);
+
+     
                     //Console.WriteLine(type.name);
                 }
 
-                await next.Invoke();
+               
             });
 
             if (env.IsDevelopment())

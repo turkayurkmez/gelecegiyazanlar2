@@ -26,41 +26,41 @@ namespace bootShop.API.Controllers
             this.userService = userService;
         }
         [HttpPost]
-        public IActionResult Login(UserLoginModel model)
+        public async Task< ActionResult> Login([FromBody] UserLoginModel model)
         {
-            //var user = userService.ValidateUser(model.UserName, model.Password);
-            //if (user != null)
-            //{
-            //    //1. claim bilgileri:
-            //    var claims = new[]
-            //    {
-            //        new Claim(JwtRegisteredClaimNames.UniqueName,user.UserName),
-            //        new Claim(ClaimTypes.Role, user.Role),
+            var user = userService.ValidateUser(model.userName, model.password);
+            if (user != null)
+            {
+                //1. claim bilgileri:
+                var claims = new[]
+                {
+                    new Claim(JwtRegisteredClaimNames.UniqueName,user.UserName),
+                    new Claim(ClaimTypes.Role, user.Role),
 
-            //    };
+                };
 
-            //    //2. gizli cümlenin üretilmesi
-            //    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Burası çok ama çok gizli bir ifade"));
-            //    var credential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                //2. gizli cümlenin üretilmesi
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Burası çok ama çok gizli bir ifade"));
+                var credential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            //    //3. token'ın özelliklerini tanımla:
-            //    var token = new JwtSecurityToken(
-            //         issuer: "turkcell.com.tr",
-            //         audience: "turkcell.com.tr",
-            //         claims: claims,
-            //         notBefore: DateTime.Now,
-            //         expires: DateTime.Now.AddMinutes(20),
-            //         signingCredentials: credential
-            //        );
+                //3. token'ın özelliklerini tanımla:
+                var token = new JwtSecurityToken(
+                     issuer: "turkcell.com.tr",
+                     audience: "turkcell.com.tr",
+                     claims: claims,
+                     notBefore: DateTime.Now,
+                     expires: DateTime.Now.AddMinutes(20),
+                     signingCredentials: credential
+                    );
 
-            //    return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
-
-
+                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
 
 
-            //}
-            //return BadRequest(new { message = "Hatalı kullanıcı adı ya da şifre" });
-            return Ok("");
+
+
+            }
+            return BadRequest(new { message = "Hatalı kullanıcı adı ya da şifre" });
+          
         }
     }
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="name" placeholder="Ürün Adı" ><br>
+        <input type="text" id="price" placeholder="Fiyat"> <br>
+        <input type="text" id="description" placeholder="Açıklama"> <br>    
+        <button id="create">Ürün Ekle</button>
+    </div>
+<script>
+    /*
+      {
+  "name": "string",
+  "price": 0,
+  "discount": 0,
+  "descriptipn": "string",
+  "categoryId": 0,
+  "imageUrl": "string"
+}
+    */
+    $(document).ready(function(){
+        $('#create').click(function(){
+            let name = $('#name').val();
+            let price = $('#price').val();
+            let description = $('#description').val();
+            let data = {
+                name: name,
+                price: price,
+                description: description,
+                categoryId: 1
+            }
+            $.ajax({
+                url: 'https://localhost:5001/api/Products',
+                method: 'POST',
+                contentType: 'application/json',
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem('token')
+                },
+                data: data,
+                success: function(data){
+                    console.log(data);
+                }
+            });
+        });
+    });
+</script>    
+</body>
+</html>

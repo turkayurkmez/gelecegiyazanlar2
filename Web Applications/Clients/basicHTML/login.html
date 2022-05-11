@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="userName" placeholder="User Name"><br>
+    <input type="password" id="pass" placeholder="Passwor"><br>
+    <a href="/create.html">Ürün ekle</a>
+    <button id="login">Giriş Yap</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#login').click(function(){
+                let userName = $('#userName').val();
+                let pass = $('#pass').val();
+                let data = {
+                    userName: userName,
+                    pass: pass
+                }
+                
+                $.ajax({
+                    url: 'https://localhost:5001/api/users',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(data){
+                        console.log(data);
+                        localStorage.setItem('token', data);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 ﻿using bootShop.API.Filters;
 using bootShop.Business;
 using bootShop.Dtos.Requests;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -47,6 +48,7 @@ namespace bootShop.API.Controllers
             return Ok();
         }
         [HttpPost]
+        [Authorize(Roles ="Admin,Editor")]
         public async Task<IActionResult> AddProduct(AddProductRequest request)
         {
             if (ModelState.IsValid)
